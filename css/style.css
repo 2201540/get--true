@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1200px;
+  
+}
+.table_parent{
+    overflow: auto;
+}
+.header{
+    width: 90%;
+    height: 60px;
+    background-color: rgb(136, 91, 25);
+    border-radius: 10px;
+    margin-left: 50%;
+    transform:translate(-50%,0%) ;
+    float: left;
+    position: fixed;
+    top: 25px;
+    z-index: 20;
+}
+.logo{
+ margin-left: 20px;
+}
+.list{
+margin-right: 30px;
+
+padding-top: 15px;
+ list-style: none;
+ float: right;
+
+}
+.list li {
+display: inline-block;
+margin-left: 10px;
+text-align: center;
+padding-top: 5px;
+background-color: rgb(210, 128, 27);
+width: 70px;
+height: 30px;
+
+}
+.list  li a{
+    text-decoration: none;
+    color:rgb(253, 211, 160)
+ 
+}
+.list  li:hover{
+   
+    background-color: #fff;
+}  
+
+/* ////////////header/////////////// */
+.table{
+     text-transform: capitalize;
+     color: rgb(198, 142, 57);
+     text-align: center;
+     font-size: 30px;
+     margin-top: 7%;
+     }
+.table-line{
+  width: 7%;
+  height: 3px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+
+}
+.table_container{
+    width: 80%;
+    height:800px ;
+    margin: auto 0 auto 230px;
+    background-color:rgb(253, 211, 160);
+    margin-top: 6%;
+   
+}
+.table_item1{
+    width: 20%;
+    height:80% ;
+    background-color:  rgb(136, 91, 25);
+    border: 2px solid rgb(214, 159, 92);
+    margin: 90px 0px 0px 230px;
+    float: left;
+}
+.basic-title{
+     text-transform: capitalize;
+     color: rgb(198, 142, 57);
+     text-align: center;
+     font-size: 30px;
+     margin-top: 7%;
+   
+}
+.basic-line{
+    margin-top: 100px;
+    width: 7%;
+  height: 1px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+}
+.circle{
+  
+    width:150px ;
+    height: 150px;
+    border-radius: 50%;
+    border:  1px solid  rgb(136, 91, 25);;
+    background-color:rgb(253, 211, 160);
+    margin:  20px auto 0px auto;
+     margin-left: 50%;
+    transform: translate(-50%,0);
+}
+.mony{
+ text-align: center;
+ padding-top:50px;
+font-weight: bold;
+font-size: 20px;
+}
+.num-9{
+    font-size: 20px;
+}
+.month{
+text-align: center;
+font-size: 20px;
+}
+.par-basic{
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+.line-1{
+ width: 80%;
+  height: 1px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+ 
+}
+
+.line-2{
+ width: 80%;
+  height: 1px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.line-3{
+ width: 80%;
+  height: 1px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+}
+.par-basic{
+    text-align: center;
+    font-size: 20px;
+    color:  rgb(202, 157, 91);
+}
+.btn{
+background-color: rgb(210, 128, 27);
+width: 100px;
+height: 50px;
+color:rgb(253, 211, 160);
+border: 0;
+/* margin-top: 30px; */
+margin: 30px auto 0px auto;
+display: block;
+
+}
+/* div1/////////////////// */
+
+.table_item2{
+ width: 20%;
+    height:80% ;
+    background-color:  rgb(136, 91, 25);
+    border: 2px solid rgb(214, 159, 92);
+    margin: 90px 0px 0px 100px;
+    float: left;
+
+}
+
+.standard-title{
+ text-transform: capitalize;
+     color: rgb(198, 142, 57);
+     text-align: center;
+     font-size: 30px;
+     margin-top: 7%;
+   
+}
+.standard-line{
+ margin-top: 100px;
+    width: 7%;
+  height: 1px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+}
+.par-standard{
+ text-transform: capitalize;
+    font-size: 20px;
+color: rgb(202, 157, 91) ;
+}
+
+/* div2/////////// */
+
+.table_item3{
+width: 20%;
+    height:80% ;
+    background-color:  rgb(136, 91, 25);
+    border: 2px solid rgb(214, 159, 92);
+    margin: 90px 0px 0px 100px;
+    float: left;
+}
+.Professional-title{
+text-transform: capitalize;
+     color: rgb(198, 142, 57);
+     text-align: center;
+     font-size: 30px;
+     margin-top: 7%;
+   
+}
+.professional-line{
+margin-top: 100px;
+    width: 7%;
+  height: 1px;
+  background-color: rgb(202, 157, 91);
+  margin: auto;
+  border-radius: 5px;
+}
+.par-professional{
+text-transform: capitalize;
+    font-size: 20px;
+color: rgb(202, 157, 91) ;
+}
